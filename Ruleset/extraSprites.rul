@@ -44,14 +44,14 @@ extraSprites:
       201: Resources_IG/Crafts/Chimera_minimised.png
       211: Resources/Crafts/Vulture_dogfight.png
       212: Resources_IG/Crafts/Chimera_dogfight.png
-      300: Resources/Droppod/Droppod_minimised.gif
-      311: Resources/Droppod/Droppod_dogfight.gif
-      500: Resources/Rhino/Rhino_minimised.gif
-      511: Resources/Rhino/Rhino_dogfight.gif
-      1701: Resources/Rhino/Rhino_minimised.gif #1689
-      1702: Resources/Rhino/Rhino_minimised.gif #1689
-      1712: Resources/Rhino/Rhino_dogfight.gif #1711
-      1713: Resources/Rhino/Rhino_dogfight.gif #1711
+      300: Resources/Droppod/Droppod_minimised.png
+      311: Resources/Droppod/Droppod_dogfight.png
+      500: Resources/Rhino/Rhino_minimised.png
+      511: Resources/Rhino/Rhino_dogfight.png
+      1701: Resources/Rhino/Rhino_minimised.png #1689
+      1702: Resources/Rhino/Rhino_minimised.png #1689
+      1712: Resources/Rhino/Rhino_dogfight.png #1711
+      1713: Resources/Rhino/Rhino_dogfight.png #1711
 
   - type: BASEBITS.PCK
     width: 192
@@ -2305,7 +2305,7 @@ extraSprites:
   - type: ORKBURNABOYZINV.SPK #FOES INV
     singleImage: true
     files:
-      0: Resources/ORK/INVBURNABOYZ.gif
+      0: Resources/ORK/INVBURNABOYZ.png
   - type: ORKTankhuntaz.SPK #FOES INV
     singleImage: true
     files:
@@ -2391,7 +2391,7 @@ extraSprites:
   - type: JUGINV.SPK #FOES INV
     singleImage: true
     files:
-      0: Resources/Juggernaut/JuggInvdoll.gif
+      0: Resources/Juggernaut/JuggInvdoll.png
 
   - type: DemiValkiaInv.SPK #FOES INV
     singleImage: true
@@ -2813,7 +2813,7 @@ extraSprites:
   - typeSingle: KSISTER_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/KHORNE/KSISTER/KSISTER_INV.png
   - typeSingle: KSISTERBRANDED_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/KHORNE/KSISTERBRANDED/KSISTERBRANDED_INV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/KHORNE/KSISTERBRANDED/KSISTERBRANDED_INV.png
   - typeSingle: KSISTERHELMET_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/KHORNE/KSISTERHELMET/KSISTERHELMET_INV.png
   - typeSingle: KVALKIA_INV.SPK #chosen sister of khorne
@@ -2860,7 +2860,7 @@ extraSprites:
   - typeSingle: KTERMINATORLORD_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/KHORNE/KTERMINATORLORD/KTERMINATORLORD_INV.png
   - typeSingle: KWARPTALON_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/KHORNE/KWARPTALON/KWARPTALON_INV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/KHORNE/KWARPTALON/KWARPTALON_INV.png
 
   - typeSingle: NIGHTLORD_CSM_SOLDIER_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/NIGHTLORDS/NLMARINE/NIGHTLORD_CSM_SOLDIER_INV.png
@@ -2923,9 +2923,9 @@ extraSprites:
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/NURGLE/NMARINE/NMARINE_INVF8.png
 
   - typeSingle: NTERMINATOR_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/NURGLE/NTERMINATOR/NTERMINATOR_INV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/NURGLE/NTERMINATOR/NTERMINATOR_INV.png
   - typeSingle: NTERMINATORLORD_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/NURGLE/NTERMINATORLORD/NTERMINATORLORD_INV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/NURGLE/NTERMINATORLORD/NTERMINATORLORD_INV.png
 
   - typeSingle: SNOVICE_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/SLAANESH/SNOVICE/SNOVICE_INV.png
@@ -2945,7 +2945,7 @@ extraSprites:
   - typeSingle: SSISTER_MARKED_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/SLAANESH/SSISTERMARKED/SSISTER_MARKED_INV.png
   - typeSingle: SSISTER_CHOSEN_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/SLAANESH/SSISTERCHOSEN/SSISTER_CHOSEN_INV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/SLAANESH/SSISTERCHOSEN/SSISTER_CHOSEN_INV.png
   - typeSingle: SPALATINE_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/SLAANESH/SPALATINE/SPALATINE_INV.png
   - typeSingle: SDOMINION_INV.SPK
@@ -2999,12 +2999,12 @@ extraSprites:
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/SLAANESH/SMARINE/SMARINE_INVF8.png
 
   - typeSingle: SMARINE_CAPTAIN_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/SLAANESH/SMARINECAPTAIN/SMARINE_CAPTAIN_INV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/SLAANESH/SMARINECAPTAIN/SMARINE_CAPTAIN_INV.png
 
   - typeSingle: TSISTER_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TSISTER/TSISTER_INV.png
   - typeSingle: TSISTER_CHOSEN_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TSISTER_CHOSEN/TSISTER_CHOSEN_INV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TSISTER_CHOSEN/TSISTER_CHOSEN_INV.png
   - typeSingle: TASSASSIN_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TASSASSIN/TASSASSIN_INV.png
   - typeSingle: TSISTERCHAMPION_INV.SPK
@@ -3052,45 +3052,45 @@ extraSprites:
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TMARINE/TMARINE_INVF8.png
 
   - typeSingle: TCAPTAIN_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TCAPTAIN/TCAPTAIN_INV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TCAPTAIN/TCAPTAIN_INV.png
 
   - typeSingle: TSORC_INV_F.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TSORC/TSORC_INV_F0.png
   - typeSingle: TSORC_INV_M.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TSORC/TSORC_INV_M0.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/TZEENTCH/TSORC/TSORC_INV_M0.png
 
   - typeSingle: UCANONESS_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UCANONESS/UCANONESS_INV.png
   - typeSingle: UNDIVIDED_HAVOC_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UHAVOC/HAV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UHAVOC/HAV.png
 
   - typeSingle: UNDIVIDED_MARINE_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UMARINE/CHN.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UMARINE/CHN.png
   - typeSingle: UNDIVIDED_MARINE_CAPTAIN_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UMARINE/CHR.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UMARINE/CHR.png
   - typeSingle: UMARINESARGE_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UMARINESARGE/UMARINESARGE_INV.png
   - typeSingle: OBLITERATOR_PLAYER_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UOBLITERATOR/OBL.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UOBLITERATOR/OBL.png
 
   - typeSingle: PLAYER_RAPTOR_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/URAPTOR/RINV.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/URAPTOR/RINV.png
   - typeSingle: PLAYER_RAPTOR_CAPTAIN_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/URAPTORCAPTAIN/RINVC.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/URAPTORCAPTAIN/RINVC.png
 
   - typeSingle: USERAPHIM_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/USERAPHIM/USERAPHIM_INV.png
   - typeSingle: USISTERHERETIC_INV.SPK
     fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/USISTERHERETIC/USISTERHERETIC_INV.png
   - typeSingle: UNDIVIDED_SORCERER_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/USORC/CHS.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/USORC/CHS.png
 
   - typeSingle: UNDIVIDED_TERMINATOR_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UTERMINATOR/CT.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UTERMINATOR/CT.png
   - typeSingle: UNDIVIDED_TERMINATOR_CAPTAIN_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UTERMINATORCAPTAIN/CTC.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UTERMINATORCAPTAIN/CTC.png
   - typeSingle: UNDIVIDED_TERMINATOR_LORD_INV.SPK
-    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UTERMINATORLORD/CTL.gif
+    fileSingle: Resources/PLAYERCHAOS/INVENTORY/UNDIVIDED/UTERMINATORLORD/CTL.png
 
 
 
@@ -3904,7 +3904,7 @@ extraSprites:
   - type: GKINV.SPK #FOES INV
     singleImage: true
     files:
-      0: Resources/FOES/Inventory/GKINV.gif
+      0: Resources/FOES/Inventory/GKINV.png
 
   - type: GREYK_ALPHA_TRANSFORMBS.PCK
     width: 512
@@ -6098,7 +6098,7 @@ extraSprites:
       207: Resources/Bigobs/LASGAN_LOWTIER_BIGOB.png #replacement for starting sprite
       208: Resources/Bigobs/hellpistol.png # offset doesn't matter but I want it to be consistent with handobs
       209: Resources/Bigobs/hellpistol_purple.png # offset + 1 does matter for ITEM_CHANGES_SPRITE_WITH_ARMOR
-      210: Resources/Bigobs/imperial_assassin_bigobs.gif # from XPiratez: MRC_3_b
+      210: Resources/Bigobs/imperial_assassin_bigobs.png # from XPiratez: MRC_3_b
       211: Resources/Bigobs/mastercrafted_laspistol.png # added a change so hotshot ammo is visible
       212: Resources/Bigobs/heavy_stubber_bipod.png
       213: Resources/Bigobs/heavy_stubber_bipod_deployed.png
@@ -6138,7 +6138,7 @@ extraSprites:
       245: Resources/Bigobs/BIGOB_BOLTERUMBRA_UNDERSLUNG.png
       246: Resources/Bolter/BOLTERUMBRA_GUARD_BIGOB.png
       247: Resources/Bigobs/BIGOB_STUBCANNON.png
-      248: Resources/Bigobs/commissar_claw.gif # fixed weapon
+      248: Resources/Bigobs/commissar_claw.png # fixed weapon
       249: Resources/Bigobs/commissar_claw_bigobs.png # corpse
       250: Resources/Bigobs/Null_Void_2x3.png
       251: Resources/Bigobs/Null_Void_3x1.png
@@ -6183,7 +6183,7 @@ extraSprites:
 
       290: Resources/Bigobs/bigob_guard_squat.png
       294: Resources/Bigobs/bigob_beastguard.png
-      295: Resources/Bigobs/chainsword_guard.gif
+      295: Resources/Bigobs/chainsword_guard.png
       296: Resources/Bigobs/null_grenadier_backpack.png
 
       297: Resources/Bolter/ACCATRAN_LIGHT_BOLTER_BIPODFOLDED_BIGOB.png
@@ -6227,8 +6227,8 @@ extraSprites:
       1008: Resources/Bigobs/BIGOB_MULTILASER_BATTERY_XL.png
 
 #ROSEMOD
-      366: Resources/FOES/366.gif
-      372: Resources/FOES/372.gif
+      366: Resources/FOES/366.png
+      372: Resources/FOES/372.png
       2002: Resources/Adeptas/616NBigOB.png
       2004: Resources/Adeptas/HEAVYBOLTERRETRIBUTOR.png
       2006: Resources/Adeptas/bolter_cantus.png
@@ -6239,19 +6239,19 @@ extraSprites:
       2014: Resources/Adeptas/610NC.png
       2015: Resources/Adeptas/616C.png
       2016: Resources/Adeptas/bigob_50Frateris.png
-      2017: Resources/ORK/509tankhammerBIG.gif
+      2017: Resources/ORK/509tankhammerBIG.png
       2018: Resources/ORK/507GorkfaustSlim.png
-      2019: Resources/ORK/BigOBSneakyShoota.gif
-      2020: Resources/ORK/508throatslitta.gif
+      2019: Resources/ORK/BigOBSneakyShoota.png
+      2020: Resources/ORK/508throatslitta.png
       2021: Resources/Adeptas/346Elohim.png
       2022: Resources/Adeptas/346Retributor.png
       2023: Resources/Adeptas/346SuperiorBig.png
-      2024: Resources/Adeptas/grenade_launcher_cherubim.gif
-      2025: Resources/Adeptas/Phosphor_Grenade.gif
-      2026: Resources/Adeptas/bolter_hellspite.gif
-      2027: Resources/Adeptas/bolter_mephisto.gif
-      2028: Resources/Adeptas/bolter_dominion.gif
-      2029: Resources/Adeptas/adeptas_sniper_arche.gif
+      2024: Resources/Adeptas/grenade_launcher_cherubim.png
+      2025: Resources/Adeptas/Phosphor_Grenade.png
+      2026: Resources/Adeptas/bolter_hellspite.png
+      2027: Resources/Adeptas/bolter_mephisto.png
+      2028: Resources/Adeptas/bolter_dominion.png
+      2029: Resources/Adeptas/adeptas_sniper_arche.png
       2030: Resources/Adeptas/LongArcheBigOB.png
       2031: Resources/Adeptas/RetributorBeltAmmHE.png
       2032: Resources/Adeptas/RetributorBeltAmmINC.png
@@ -6262,12 +6262,12 @@ extraSprites:
       2040: Resources/Adeptas/BIGOBFaustSlim.png
       2041: Resources/Adeptas/BIGOBHaborymSlim.png
       2042: Resources/Adeptas/BIGOBFaustSlimShort.png
-      2044: Resources/Adeptas/SmallMeltaTank2.gif
+      2044: Resources/Adeptas/SmallMeltaTank2.png
       2045: Resources/Adeptas/CherubPenitence_Drum.png
       2046: Resources/Adeptas/CherubPhosphor_Drum.png
       2047: Resources/Adeptas/CherubINC_Drum.png
       2048: Resources/Bigobs/SACRESANT_SHIELD_BIGOB.png
-      2049: Resources/Adeptas/GravgunJupiter.gif
+      2049: Resources/Adeptas/GravgunJupiter.png
       2050: Resources/Adeptas/GravgunJupiterChaos.png
       2051: Resources/Adeptas/boltpistol_seraphim.png
       2052: Resources/Adeptas/boltpistol_scourge.png
@@ -6285,7 +6285,7 @@ extraSprites:
       2064: Resources/Adeptas/RedeemerKrak.png
       2065: Resources/Adeptas/RedeemerPenitence.png
       2066: Resources/Adeptas/RedeemerINC.png
-      2067: Resources/Adeptas/RedeemerFlachette.gif
+      2067: Resources/Adeptas/RedeemerFlachette.png
       2068: Resources/Adeptas/HEAVYBOLTERRETRIBUTOR2.png
       2069: Resources/Adeptas/POTESTASHEAVYBOLTER.png
       2070: Resources/Bolter/Dominion_detonatormag.png
@@ -6299,7 +6299,7 @@ extraSprites:
       2078: Resources/Adeptas/BIGOB_SACRESANT.png
       2080: Resources/Adeptas/LASCAN_Malthus.png
       2081: Resources/Adeptas/MeltaBeamer.png
-      2082: Resources/Adeptas/LASCANCLIPMALTHUS.gif
+      2082: Resources/Adeptas/LASCANCLIPMALTHUS.png
       2083: Resources/Adeptas/ADEPTAS_PLASMA_SPRAYGUN.png
       2084: Resources/Adeptas/CHAOS_PLASMA_SPRAYGUN.png
       2085: Resources/MPLASMA/PLASMACARBINEC.png
@@ -6322,15 +6322,15 @@ extraSprites:
       2102: Resources/ORK/Null_Void_2x1_Ork_Bike_L.png
       2103: Resources/ORK/Null_Void_2x1_Ork_Bike_R.png
       2109: Resources/ORK/ORK_CHAINSWORD_BIGOB.png
-      2110: Resources/ORK/505BurnaBoyzBIG.gif
-      2111: Resources/ORK/550Twinshoota.gif
-      2112: Resources/ORK/501FM.gif
-      2113: Resources/ORK/clipsBurna.gif #Scorcha tank
-      2114: Resources/ORK/clipsMelta.gif
+      2110: Resources/ORK/505BurnaBoyzBIG.png
+      2111: Resources/ORK/550Twinshoota.png
+      2112: Resources/ORK/501FM.png
+      2113: Resources/ORK/clipsBurna.png #Scorcha tank
+      2114: Resources/ORK/clipsMelta.png
       2115: Resources/ORK/CLOW2.png
       2116: Resources/ORK/502KrakkGrenade.png
-      2117: Resources/ORK/weirdboyzBIGOBgif.gif
-      2118: Resources/ORK/wyrdboystikkBIGOBgif.gif
+      2117: Resources/ORK/weirdboyzBIGOBgif.png
+      2118: Resources/ORK/wyrdboystikkBIGOBgif.png
       2119: Resources/ORK/BurnaKilla.png
       2120: Resources/ORK/StinkBombBIGOB.png
       2121: Resources/ORK/flashgunbigOB.png
@@ -6340,9 +6340,9 @@ extraSprites:
       2125: Resources/ORK/506Flashgitz.png
       2126: Resources/ORK/Deffkoptershootas.png
       2127: Resources/ORK/DeffkopterRokkits.png
-      2128: Resources/ORK/BIGBOSSTWINSHOOTA.gif
+      2128: Resources/ORK/BIGBOSSTWINSHOOTA.png
       2129: Resources/ORK/BIGOBORKHEAVYSNIPERRIFLE.png
-      2130: Resources/ORK/BIGOBORKHEAVYSNIPERRIFLEMAG.gif
+      2130: Resources/ORK/BIGOBORKHEAVYSNIPERRIFLEMAG.png
       2142: Resources/ORK/deathskull_boy_bigob.png
       2143: Resources/ORK/deathskull_lootaboy_bigob.png
       2144: Resources/ORK/deathskull_nob_bigob.png
@@ -6364,7 +6364,7 @@ extraSprites:
       2214: Resources/FOES/BigOBDeserterPDF1.png
       2215: Resources/Adeptas/BIGOBAdeptasPilot.png
       2216: Resources/Adeptas/BigOBSlaaneshNovice.png
-      2217: Resources/psword/Twohander2.gif
+      2217: Resources/psword/Twohander2.png
       2218: Resources/Adeptas/BigOBsentinel_meltalance.png
       2219: Resources/Adeptas/BigOBsentinel_heavybolter.png
       2220: Resources/Adeptas/null_sentinel_backpack_HBAdeptas.png
@@ -6419,7 +6419,7 @@ extraSprites:
       2510: Resources/GREY/BIGOB_INQ_HELLGUN.png
       2600: Resources/hbolter/NurgleHbolterCASE.png
       2601: Resources/hbolter/NurgleHeavyBolterBIGOB.png
-      2602: Resources/mlauncher/nurglelauncher.gif
+      2602: Resources/mlauncher/nurglelauncher.png
       2603: Resources/Adeptas/346MercySisterCorpse.png
       2604: Resources/Bolter/bigOB_nurglelightbolter.png
       2605: Resources/Bolter/bigOB_lightbolterammo_Nurgle.png
@@ -6562,18 +6562,18 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Sprites/Fire.gif
-      10: Resources/Sprites/smoke.gif
-      60: Resources/Sprites/terranplasma_hit.gif
-      70: Resources/Sprites/HitAnimationS.gif
-      80: Resources/Sprites/HitAnimationR.gif
-      90: Resources/Sprites/Fire.gif
-      100: Resources/Sprites/100heavyplasmahit.gif
-      110: Resources/Sprites/110meltahit.gif
-      120: Resources/Sprites/120.gif
-      130: Resources/Sprites/130.gif
-      140: Resources/Sprites/140.gif
-      150: Resources/Sprites/150.gif
+      0: Resources/Sprites/Fire.png
+      10: Resources/Sprites/smoke.png
+      60: Resources/Sprites/terranplasma_hit.png
+      70: Resources/Sprites/HitAnimationS.png
+      80: Resources/Sprites/HitAnimationR.png
+      90: Resources/Sprites/Fire.png
+      100: Resources/Sprites/100heavyplasmahit.png
+      110: Resources/Sprites/110meltahit.png
+      120: Resources/Sprites/120.png
+      130: Resources/Sprites/130.png
+      140: Resources/Sprites/140.png
+      150: Resources/Sprites/150.png
       160: Resources/Sprites/160.png
       170: Resources/Sprites/170BLESS.png
       2000: Resources/Sprites/184EX.png #small explosion
@@ -6604,20 +6604,20 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      4: Resources/Sprites/MeleeWhite.gif
-      8: Resources/Sprites/ClawsRed.gif
-      12: Resources/Sprites/ClawsWhite.gif
+      4: Resources/Sprites/MeleeWhite.png
+      8: Resources/Sprites/ClawsRed.png
+      12: Resources/Sprites/ClawsWhite.png
       16: Resources/Sprites/MeleePurple.png
-      20: Resources/Sprites/MeleeRedBlast.gif
-      24: Resources/Sprites/ClawsGreen.gif
-      28: Resources/Sprites/MeleeShock.gif
-      32: Resources/Sprites/Repair.gif
-      36: Resources/Sprites/Bird.gif
-      40: Resources/Sprites/Eagle.gif
-      44: Resources/Sprites/Meleechain.gif
-      48: Resources/Sprites/Meleechainred.gif
-      52: Resources/Sprites/52.gif
-      56: Resources/Sprites/saw.gif
+      20: Resources/Sprites/MeleeRedBlast.png
+      24: Resources/Sprites/ClawsGreen.png
+      28: Resources/Sprites/MeleeShock.png
+      32: Resources/Sprites/Repair.png
+      36: Resources/Sprites/Bird.png
+      40: Resources/Sprites/Eagle.png
+      44: Resources/Sprites/Meleechain.png
+      48: Resources/Sprites/Meleechainred.png
+      52: Resources/Sprites/52.png
+      56: Resources/Sprites/saw.png
       60: Resources/Sprites/Heal.png
       64: Resources/Sprites/64.png
       68: Resources/Sprites/68.png
@@ -6656,7 +6656,7 @@ extraSprites:
 # IGMA
       200: Resources/Floorobs/floorob_handheld_heavy_stubber_ig.png
       201: Resources/Floorobs/floorob_invisible.png
-      210: Resources/Floorobs/imperial_assassin_floorob.gif # from XPiratez
+      210: Resources/Floorobs/imperial_assassin_floorob.png # from XPiratez
       220: Resources/Floorobs/FLOOROB_SHOTPISTOL.png
       221: Resources/Floorobs/FLOOROB_SOLO_COMBIMELTA.png
       222: Resources/Floorobs/floorob_rocket_accatran.png
@@ -6689,7 +6689,7 @@ extraSprites:
       280: Resources/Floorobs/floorob_heavy_weapon_kit.png
       290: Resources/Floorobs/floorob_guardarmoredsquat.png
       294: Resources/Floorobs/floorob_beastguard.png
-      295: Resources/Floorobs/floorob_chainsword_guard.gif
+      295: Resources/Floorobs/floorob_chainsword_guard.png
 
 
       900: Resources/Floorobs/FLOOROB_ROTOR_CANNON.png
@@ -6713,15 +6713,15 @@ extraSprites:
       2004: Resources/Adeptas/floorob_200Elohim.png
       2012: Resources/Adeptas/floorob_461F.png #Frateris
       2050: Resources/Adeptas/floorob_1Elohim.png
-      2051: Resources/Adeptas/floorob_Phosphor.gif
-      2052: Resources/Adeptas/floorob_grenade_launcher_cherubim.gif
+      2051: Resources/Adeptas/floorob_Phosphor.png
+      2052: Resources/Adeptas/floorob_grenade_launcher_cherubim.png
       2053: Resources/Adeptas/floorob_309Faust.png
       2054: Resources/Adeptas/floorob_309Haborym.png
       2055: Resources/Adeptas/floorob_arche.png
       2056: Resources/Adeptas/floorob_hellspite.png
       2057: Resources/Adeptas/floorob_mephisto.png
-      2058: Resources/Adeptas/floorob_LASMalthus.gif
-      2059: Resources/Adeptas/floorob_beamer_meltagun.gif
+      2058: Resources/Adeptas/floorob_LASMalthus.png
+      2059: Resources/Adeptas/floorob_beamer_meltagun.png
       2060: Resources/Adeptas/floorob_INC40mm.png
       2061: Resources/Adeptas/floorob_Peni40mm.png
       2062: Resources/Adeptas/floorob_Melta40mm.png
@@ -6763,21 +6763,21 @@ extraSprites:
       2098: Resources/Adeptas/FLOOROB_NOV_SUPERIOR.png
       2099: Resources/Adeptas/FLOOROB_REP_SUPERIOR.png
       2101: Resources/ORK/floorob_95Meganob.png #Meganob
-      2102: Resources/ORK/floorob_332.gif #Meganob2
-      2103: Resources/ORK/floorob_301Burna.gif
-      2104: Resources/ORK/floorob_103Burnatank.gif
-      2105: Resources/ORK/floorob_303Melta.gif
+      2102: Resources/ORK/floorob_332.png #Meganob2
+      2103: Resources/ORK/floorob_301Burna.png
+      2104: Resources/ORK/floorob_103Burnatank.png
+      2105: Resources/ORK/floorob_303Melta.png
       2106: Resources/ORK/floorob_306Kommandoz.png #Kommandoz
-      2107: Resources/ORK/floorob_308Burnaboyz.gif
+      2107: Resources/ORK/floorob_308Burnaboyz.png
       2108: Resources/ORK/floorob_96Squig.png
-      2109: Resources/ORK/floorob_311Tankhammer.gif
-      2110: Resources/ORK/floorob_309gorkfaust.gif
+      2109: Resources/ORK/floorob_311Tankhammer.png
+      2110: Resources/ORK/floorob_309gorkfaust.png
       2300: Resources/ORK/floorob_82_1bike.png
       2301: Resources/ORK/floorob_83_1bike.png
       2302: Resources/ORK/floorob_84_1bike.png
       2303: Resources/ORK/floorob_85_1bike.png
       2304: Resources/ORK/floorob_Stormboyz.png
-      2305: Resources/ORK/floorob_weirdboyz.gif
+      2305: Resources/ORK/floorob_weirdboyz.png
       2306: Resources/ORK/floorob_wyrdboystikk.png
       2307: Resources/ORK/floorOB_snazzgun.png
       2308: Resources/ORK/floorob_tankhuntaz.png
@@ -6790,7 +6790,7 @@ extraSprites:
       2315: Resources/ORK/floorob_deffkopta83.png
       2316: Resources/ORK/floorob_deffkopta84.png
       2317: Resources/ORK/floorob_deffkopta85.png
-      2318: Resources/ORK/FLOOROB_ORKHEAVYSNIPERRIFLE.gif
+      2318: Resources/ORK/FLOOROB_ORKHEAVYSNIPERRIFLE.png
       2320: Resources/ORK/floorob_deathskull_boy.png
       2321: Resources/ORK/floorob_deathskull_lootaboy.png
       2322: Resources/ORK/floorob_deathskull_nob.png
@@ -6941,7 +6941,7 @@ extraSprites:
     subX: 12
     subY: 20
     files:
-      0: Resources/UnitUI/GUI_Aux.gif
+      0: Resources/UnitUI/GUI_Aux.png
 
   - type: GlobeMarkers
     width: 63
