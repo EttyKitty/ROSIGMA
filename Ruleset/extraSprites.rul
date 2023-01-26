@@ -83,22 +83,22 @@ extraSprites:
       713: Resources/Basebits/OUT_HYPER14.png
       714: Resources/Basebits/OUT_HYPER15.png
       715: Resources/Basebits/OUT_HYPER16.png
-      716: Resources/Basebits/C1.gif #aaaaaaaaaaaaaaaaaaaahhhhhhhhhh
-      717: Resources/Basebits/C2.gif
-      718: Resources/Basebits/C2.gif
-      719: Resources/Basebits/C3.gif
-      720: Resources/Basebits/C4.gif
-      721: Resources/Basebits/C5.gif
-      722: Resources/Basebits/C5.gif
-      723: Resources/Basebits/C6.gif
-      724: Resources/Basebits/C4.gif
-      725: Resources/Basebits/C5.gif
-      726: Resources/Basebits/C5.gif
-      727: Resources/Basebits/C6.gif
-      728: Resources/Basebits/C7.gif
-      729: Resources/Basebits/C8.gif
-      730: Resources/Basebits/C8.gif
-      731: Resources/Basebits/C9.gif
+      716: Resources/Basebits/C1.png #aaaaaaaaaaaaaaaaaaaahhhhhhhhhh
+      717: Resources/Basebits/C2.png
+      718: Resources/Basebits/C2.png
+      719: Resources/Basebits/C3.png
+      720: Resources/Basebits/C4.png
+      721: Resources/Basebits/C5.png
+      722: Resources/Basebits/C5.png
+      723: Resources/Basebits/C6.png
+      724: Resources/Basebits/C4.png
+      725: Resources/Basebits/C5.png
+      726: Resources/Basebits/C5.png
+      727: Resources/Basebits/C6.png
+      728: Resources/Basebits/C7.png
+      729: Resources/Basebits/C8.png
+      730: Resources/Basebits/C8.png
+      731: Resources/Basebits/C9.png
       740: Resources/Basebits/OUT_TEMP_STORE.png
       741: Resources/Basebits/guardBarracks.png
       742: Resources/Basebits/sistersBarracks.png
