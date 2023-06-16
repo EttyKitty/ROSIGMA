@@ -7,6 +7,8 @@ armors:
     rearArmor: 2
     underArmor: 2
     drawingRoutine: 0
+    spriteInv: CULTI3
+    spriteSheet: CULTIST3.PCK
     damageModifier: #CULTIST ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -27,6 +29,8 @@ armors:
     sideArmor: 4
     rearArmor: 3
     underArmor: 3
+    spriteInv: CULTI2
+    spriteSheet: CUTIST2.PCK
     damageModifier: #CULTIST ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -329,3 +333,81 @@ armors:
       - 1.0 #IMPACT
       - 1.0 #MELTA
     loftempsSet: [ 3 ]
+
+  - type: STR_CULTIST_ASSASSIN_ARMOR
+    spriteSheet: CULTIST_ASSASSIN_BS.PCK
+    spriteInv: CULTIST_ASSASSIN_INV
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_SECTOID_FEMCULTIST_CORPSE
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    frontArmor: 14
+    sideArmor: 12
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 2.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+
+  - type: STR_CULTIST_SEER_ARMOR
+    spriteSheet: CULTIST_SEER_BS.PCK
+    spriteInv: CULTIST_SEER_INV
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_SECTOID_FEMCULTIST_CORPSE
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 14
+    underArmor: 14
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 2.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+
+  - type: STR_CULTIST_SADIST_ARMOR #CULTIST & RENEGADE GUARD
+    spriteSheet: SECTOID.PCK
+    spriteInv: CULTI1
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    visibilityAtDay: 40
+    visibilityAtDark: 15
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 6
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 2.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA

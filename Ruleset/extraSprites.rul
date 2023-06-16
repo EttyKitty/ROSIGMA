@@ -1,4 +1,4 @@
-﻿
+
 # keep the basic indices range reserved in mind
 # https://www.ufopaedia.org/index.php/Ruleset_Vanilla_IDs_(OpenXcom)
 
@@ -4137,6 +4137,30 @@ extraSprites:
     files:
       0: Resources/FOES/Battlesprites/CULTIST_ASPIRING_BS.png
 
+  - type: CULTIST_ASSASSIN_BS.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/Battlesprites/CULTIST_ASSASSIN_BS.png
+
+  - type: CULTIST_SEER_BS.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/Battlesprites/CULTIST_SEER_BS.png
+
+  - type: CULTIST3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/Battlesprites/cultist3.png
+
   - type: ALPHA_DARKAPOSTLE_TRANSFORM_BS.PCK
     width: 256
     height: 520
@@ -4221,6 +4245,16 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FOES/Inventory/CULTASPIRING_INV.png
+  
+  - type: CULTIST_ASSASSIN_INV.SPK #FOES INV
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/CULTIST_ASSASSIN_INV.png
+  
+  - type: CULTIST_SEER_INV.SPK #FOES INV
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/CULTIST_SEER_INV.png
 
   - type: FraterisMilitiaOrigins.SPK                  #UFOPEDIA
     singleImage: true

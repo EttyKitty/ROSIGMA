@@ -1,4 +1,4 @@
-﻿extended:
+extended:
   tags:
     RuleArmor:
       INFECTION_RESIST: int #reduces infection damage by this as a %
@@ -8214,119 +8214,136 @@ units:
         - STR_PLASMA_PISTOL
         - STR_PLASMA_PISTOL_CLIP
         - STR_BLOODLETTERSPAWNER_GRENADE
-  - type: STR_SECTOID_ENGINEER
+
+  - type: STR_SECTOID_ENGINEER # RANK-2 MANIAC
     armor: STR_CULTIST_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 10
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734}, {mod: 40k, index: 735}, {mod: 40k, index: 736}]
     intelligence: 6
-    aggression: 2
+    aggression: 3
+    berserkChance: 70
     spotter: 1
     moveSound: -1
     livingWeapon: true
     builtInWeaponSets:
-      - - STR_STUB_GUN_CHAOS
+      - 
+        - STR_STUB_GUN_CHAOS
+        - STR_STUB_GUN_AMMO
         - STR_STUB_GUN_AMMO
         - STR_STUB_GUN_AMMO
         - STR_KNIF
-        - STR_SMOKE_GRENADE
         - STR_GRENADE
-      - - STR_BOLTPISTOL_CHAOS
-        - STR_PISTOL_CLIP
-        - STR_PISTOL_CLIP
-        - STR_PISTOL_CLIP
+      - 
+        - STR_AUTOPISTOL_CHAOS
+        - STR_AUTOPISTOL_CLIP
+        - STR_AUTOPISTOL_CLIP
+        - STR_AUTOPISTOL_CLIP
+        - STR_CHAINSWORD_GUARD
+        - STR_GRENADE
+      - 
+        - STR_STUB_GUN_CHAOS
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_AXE
         - STR_ALIEN_GRENADE
-      - - STR_SMALL_LAUNCHER
-        - STR_STUN_BOMB
-        - STR_STUN_BOMB
-        - STR_STUN_BOMB
-  - type: STR_SECTOID_MEDIC
+
+  - type: STR_SECTOID_MEDIC # RANK-3 SADIST
     stats:
       tu: 54
       stamina: 90
       health: 40
       bravery: 80
       reactions: 50
-      firing: 40
+      firing: 58
       throwing: 58
       strength: 30
       psiStrength: 40
       psiSkill: 0
-      melee: 76
-    armor: STR_SECTOID_ARMOR0
+      melee: 42
+    armor: STR_CULTIST_SADIST_ARMOR
     intelligence: 5
     aggression: 1
     spotter: 1
     value: 5
     livingWeapon: true
     builtInWeaponSets:
-          - - STR_STUN_ROD
-            - STR_SMOKE_GRENADE
-            - STR_SMOKE_GRENADE
-            - STR_GRENADE
-          - - STR_STUB_GUN_CHAOS
-            - STR_STUB_GUN_AMMO
-            - STR_STUB_GUN_AMMO
-            - STR_KNIF
-            - STR_SMOKE_GRENADE
-            - STR_GRENADE
-          - - STR_STUB_RIFLE_CHAOS
-            - STR_STUB_GUN_AMMO_AP
-            - STR_STUB_GUN_AMMO_AP
-            - STR_SMOKE_GRENADE
-  - type: STR_SECTOID_NAVIGATOR                                         # RANK 4 weapons done
+      -
+        - STR_FLAMETHROWER_CHAOS
+        - STR_FLAMETHROWER_CLIP
+        - STR_FLAMETHROWER_CLIP
+        - STR_GRENADE
+      - 
+        - STR_SHOTGUN_CHAOS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+      - 
+        - STR_LASER_RIFLEC
+        - STR_LASGUN_CLIP
+        - STR_LASGUN_CLIP
+        - STR_ALIEN_GRENADE
+
+  - type: STR_SECTOID_NAVIGATOR # RANK-4 SEER
+    armor: STR_CULTIST_SEER_ARMOR
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
     stats:
-      tu: 54
-      stamina: 90
-      health: 30
-      bravery: 80
-      reactions: 55
-      firing: 45
-      throwing: 58
-      strength: 30
-      psiStrength: 40
-      psiSkill: 0
-      melee: 76
-    armor: STR_CULTIST_ARMOR
-    intelligence: 4
-    aggression: 2
-    spotter: 1
-    value: 8
-    livingWeapon: true
-    builtInWeaponSets:
-          -
-            - STR_STUB_RIFLE_CHAOS
-            - STR_STUB_GUN_AMMO_WOUND
-            - STR_STUB_GUN_AMMO_WOUND
-            - STR_GRENADE
-          -
-            - STR_LASER_RIFLEC
-            - STR_LASGUN_CLIP
-            - STR_LASGUN_CLIP
-            - STR_GRENADE
-          -
-            - STR_AUTOGUN_CHAOS
-            - STR_AUTOGUN_CLIP
-            - STR_AUTOGUN_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-  - type: STR_SECTOID_LEADER                                            # RANK 1 weapons done
-    armor: STR_SECTOID_ARMORP
-    stats:
-      tu: 58
+      tu: 64
       stamina: 90
       health: 40
       bravery: 80
       reactions: 55
-      firing: 55
+      firing: 58
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 66
+    intelligence: 4
+    aggression: 1
+    spotter: 2
+    value: 8
+    livingWeapon: true
+    builtInWeaponSets:
+      -
+        - STR_KNIF
+        - STR_SMG_STUB_GUN_CHAOS
+        - STR_STUB_GUN_AMMO_LONG
+        - STR_STUB_GUN_AMMO_LONG
+        - STR_SCARE_GRENADE
+      -
+        - STR_KNIF
+        - STR_SMG_STUB_GUN_CHAOS
+        - STR_STUB_GUN_AMMO_LONG
+        - STR_STUB_GUN_AMMO_LONG
+        - STR_SCARE_GRENADE
+      -
+        - STR_CPOWER_DAGGER
+        - STR_INFERNO_PISTOL
+        - STR_INFERNO_PISTOL_AMMO
+        - STR_INFERNO_PISTOL_AMMO
+        - STR_SCARE_GRENADE
+
+  - type: STR_SECTOID_LEADER # RANK-1 ASSASSIN
+    armor: STR_CULTIST_ASSASSIN_ARMOR
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 58
+      firing: 68
       throwing: 58
       strength: 40
       psiStrength: 50
       psiSkill: 0 #50
-      melee: 76
+      melee: 44
     intelligence: 7
-    aggression: 4
+    aggression: 0
     spotter: 2
     sniper: 75
     value: 15
@@ -8337,49 +8354,72 @@ units:
             - STR_STUB_GUN_AMMO_AP
             - STR_STUB_GUN_AMMO_HP
             - STR_STUB_GUN_AMMO_WOUND
-            - STR_KRAK_GRENADE
           -
             - STR_SNIPER_CHAOS
             - STR_HC_AP_AMMO
             - STR_HC_AP_AMMO
             - STR_HC_AP_AMMO
-            - STR_ALIEN_GRENADE
+            - STR_HC_AP_AMMO
           -
             - STR_SNIPER_CHAOS
             - STR_HC_AP_AMMO
             - STR_HC_AP_AMMO
             - STR_HC_AP_AMMO
-            - STR_MGRENADE
-  - type: STR_SECTOID_COMMANDER                                         # RANK0 weapons done
+            - STR_HC_AP_AMMO
+
+  - type: STR_SECTOID_COMMANDER # RANK-0 HIGH PRIEST
     stats:
-      tu: 54
+      tu: 68
       stamina: 90
       health: 50
       bravery: 90
-      reactions: 60
-      firing: 52
+      reactions: 66
+      firing: 68
       throwing: 58
-      strength: 40
+      strength: 54
       psiStrength: 50
       psiSkill: 30
-      melee: 76
+      melee: 74
     armor: STR_SECTOID_ARMORP
     moraleLossWhenKilled: 150 #Heavy morale loss for cult leader death, 150%
     intelligence: 8
     aggression: 0
-    spotter: 2
+    spotter: 3
     value: 20
     livingWeapon: true
     builtInWeaponSets:
-      - - STR_SNIPER_CHAOS
-        - STR_HC_AP_AMMO
-        - STR_HC_AP_AMMO
-        - STR_HC_AP_AMMO
+      - 
+        - STR_BOLTPISTOL_CHAOS
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_CPOWER_AXE
         - STR_BLOODLETTERSPAWNER_GRENADE
         - STR_DAEMONETTESPAWNER_GRENADE
         - STR_FLAMERSPAWNER_GRENADE
         - STR_PLAGUEBEARERSPAWNER_GRENADE
-  - type: STR_SECTOID_SOLDIER                                           # RANK5 weapons done
+      - 
+        - STR_BOLTPISTOL_CHAOS
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_CPOWER_AXE
+        - STR_BLOODLETTERSPAWNER_GRENADE
+        - STR_DAEMONETTESPAWNER_GRENADE
+        - STR_FLAMERSPAWNER_GRENADE
+        - STR_PLAGUEBEARERSPAWNER_GRENADE
+      - 
+        - STR_PLASMA_PISTOL
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_CPOWER_AXE
+        - STR_BLOODLETTERSPAWNER_GRENADE
+        - STR_DAEMONETTESPAWNER_GRENADE
+        - STR_FLAMERSPAWNER_GRENADE
+        - STR_PLAGUEBEARERSPAWNER_GRENADE
+
+  - type: STR_SECTOID_SOLDIER # RANK-5 CULTIST
     stats:
       tu: 54
       stamina: 90
@@ -8395,29 +8435,30 @@ units:
     armor: STR_SECTOID_ARMOR0
     moraleLossWhenKilled: 50 #chaff cultists
     intelligence: 3
-    aggression: 2
+    aggression: 3
     value: 3
     livingWeapon: true
     builtInWeaponSets:
-          -
-            - STR_STUB_GUN_CHAOS
-            - STR_STUB_GUN_AMMO
-            - STR_STUB_GUN_AMMO
-            - STR_STUB_GUN_AMMO
-            - STR_KNIF
-            - STR_SMOKE_GRENADE
-            - STR_GRENADE
-          -
-            - STR_LASER_PISTOLC
-            - STR_LASPISTOL_CLIP
-            - STR_LASPISTOL_CLIP
-            - STR_KNIF
-            - STR_ALIEN_GRENADE
-          - - STR_AUTOGUN_CHAOS
-            - STR_AUTOGUN_CLIP
-            - STR_SMOKE_GRENADE
-            - STR_GRENADE
-  - type: STR_SECTOID_ASPIRING_CHAMPION       #Elite Sectoid Cultist Soldier
+      -
+        - STR_STUB_GUN_CHAOS
+        - STR_KNIF
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_GRENADE
+      -
+        - STR_AUTOPISTOL_CHAOS
+        - STR_KNIF
+        - STR_AUTOPISTOL_CLIP
+        - STR_AUTOPISTOL_CLIP
+        - STR_GRENADE
+      - 
+        - STR_AUTOGUN_CHAOS
+        - STR_AUTOGUN_CLIP
+        - STR_AUTOGUN_CLIP
+        - STR_GRENADE
+
+  - type: STR_SECTOID_ASPIRING_CHAMPION       # RANK-TERRORIST Elite Sectoid Cultist Soldier
     race: STR_SECTOID
     rank: STR_LIVE_SOLDIER
     stats:
@@ -8437,7 +8478,7 @@ units:
     kneelHeight: 16
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
     intelligence: 3
-    aggression: 4
+    aggression: 2
     berserkChance: 70
     spotter: 2
     sniper: 25
@@ -8445,23 +8486,24 @@ units:
     value: 12
     livingWeapon: true
     builtInWeaponSets:
-      - - STR_LASER_RIFLEC
-        - STR_LASGUN_CLIP
-        - STR_LASGUN_CLIP
+      - 
+        - STR_HEAVY_STUBBER_CHAOS
+        - STR_HEAVY_STUBBER_CLIP
+        - STR_HEAVY_STUBBER_CLIP
         - STR_ALIEN_GRENADE
-      - - STR_LASER_RIFLEC
-        - STR_LASGUN_CLIP_HOTSHOT_CHAOS
-        - STR_LASGUN_CLIP_HOTSHOT_CHAOS
-        - STR_ALIEN_GRENADE
-      - - STR_CHAOS_RIPPERGUN
+      - 
+        - STR_CHAOS_RIPPERGUN
         - STR_RIPPER_GUN_CLIP
         - STR_RIPPER_GUN_CLIP
         - STR_ALIEN_GRENADE
-      - - STR_CHAOS_HELLGUN
-        - STR_ALIEN_GRENADE
+      - 
+        - STR_SMALL_LAUNCHER
+        - STR_STUN_BOMB
+        - STR_STUN_BOMB
+        - STR_STUN_BOMB
         - STR_ALIEN_GRENADE
 
-  - type: STR_SECTOID_FEMCULTIST     #CHAOS FEMALE CULTIST FANATIC
+  - type: STR_SECTOID_FEMCULTIST     # RANK-TERRORIST CHAOS FEMALE CULTIST FANATIC
     race: STR_SECTOID
     rank: STR_LIVE_SOLDIER
     stats:
@@ -8472,7 +8514,7 @@ units:
       reactions: 64
       firing: 58
       throwing: 45
-      strength: 40
+      strength: 60
       psiStrength: 75
       psiSkill: 0
       melee: 75
@@ -8487,17 +8529,18 @@ units:
     energyRecovery: 40
     livingWeapon: true
     builtInWeaponSets:
-      - - STR_CHAOS_ROCKET_LAUNCHER
-        - STR_INCENDIARY_ROCKET
+      - 
+        - STR_CHAOS_ROCKET_LAUNCHER
         - STR_INCENDIARY_ROCKET
         - STR_SMALL_ROCKET
-      - - STR_CHAOS_LASCANNON_HANDHELD
-        - STR_ALIEN_GRENADE
-      - - STR_CHAOS_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+      - 
+        - STR_CHAOS_LASCANNON_HANDHELD
+      - 
+        - STR_CHAOS_ROCKET_LAUNCHER
         - STR_SMALL_ROCKET
         - STR_LARGE_ROCKET
         - STR_LARGE_ROCKET
-        - STR_ALIEN_GRENADE
 
   - type: STR_SECTOID_DARKDISCIPLE     #CHAOS FEMALE CULTIST DARK DISCIPLE
     race: STR_SECTOID
